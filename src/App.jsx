@@ -14,7 +14,7 @@ function App() {
         {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Authentication />} />
-          <Route path="/room" element={<Room />} />
+          <Route path="/room/*" element={<Room />} />
         </Routes>
       </BrowserRouter>
     </>
